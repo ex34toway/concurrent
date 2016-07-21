@@ -21,7 +21,7 @@
 		<logback.version>1.0.13</logback.version>
 		
 		
-		<junit.version>4.12</junit.version>
+		<junit.version>3.8.1</junit.version>
         <trove4j.version>3.0.3</trove4j.version>
 	</properties>
 

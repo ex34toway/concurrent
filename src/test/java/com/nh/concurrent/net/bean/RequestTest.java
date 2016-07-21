@@ -1,9 +1,10 @@
 package com.nh.concurrent.net.bean;
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static junit.framework.Assert.*;
 
-public class RequestTest {
-	@Test
+import junit.framework.TestCase;
+
+public class RequestTest extends TestCase{
+
 	public void testBaseMethod()
 	{
 		Request.request_Net.Builder builder = Request.request_Net.newBuilder();

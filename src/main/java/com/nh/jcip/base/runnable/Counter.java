@@ -1,7 +1,7 @@
 package com.nh.jcip.base.runnable;
 
-import net.jcip.annotations.GuardedBy;
-import net.jcip.annotations.ThreadSafe;
+import jcip.annotations.GuardedBy;
+import jcip.annotations.ThreadSafe;
 
 @ThreadSafe
 public final class Counter {
